@@ -64,15 +64,17 @@ function ServicesGrid({ limit = 0, showTitle = true, showCta = true }) {
           {filteredServices.map(service => (
             <div 
               key={service.id}
-              className={`card p-6 flex flex-col ${
-                service.popular ? 'border-2 border-accent-500 relative' : ''
+              className={`card p-6 flex flex-col relative ${
+                service.popular ? 'border-2 border-accent-500' : ''
               }`}
             >
               {/* Popular badge */}
               {service.popular && (
-                <div className="absolute -top-3 -right-3 bg-accent-500 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center">
-                  <FaStar className="mr-1" />
-                  Popular
+                <div className="absolute top-0 right-0 bg-accent-500 text-white text-xs font-bold px-2 py-1 rounded-bl-md">
+                  <span className="flex items-center">
+                    <FaStar className="mr-1" size={10} />
+                    Popular
+                  </span>
                 </div>
               )}
               

@@ -32,8 +32,8 @@ function MapSection() {
                   <div>
                     <h4 className="text-lg font-medium mb-1">Address</h4>
                     <address className="not-italic text-primary-600">
-                      123 Main Street<br />
-                      Los Angeles, CA 90001
+                      7217 Van Nuys Blvd<br />
+                      Van Nuys, CA 91405
                     </address>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ function MapSection() {
               <div className="mt-8 p-4 bg-primary-50 rounded-lg">
                 <h4 className="font-medium mb-2">Parking Information</h4>
                 <p className="text-primary-600 text-sm">
-                  Street parking is available on Main Street. We also have a small customer parking lot behind our building accessible from Oak Avenue.
+                  Street parking is available on Van Nuys Blvd. We also have convenient customer parking available in the plaza lot.
                 </p>
               </div>
             </div>
@@ -105,7 +105,7 @@ function MapSection() {
               <div className="relative w-full h-[400px] lg:h-full rounded-lg overflow-hidden">
                 <iframe
                   title="Vlad the Barber Shop Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.4355537941!2d-118.69192651429203!3d34.020730493481265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1617423406513!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.1694821875837!2d-118.45218848453515!3d34.20121558056186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c296f51f4545e3%3A0xf0c487852d981f35!2s7217%20Van%20Nuys%20Blvd%2C%20Van%20Nuys%2C%20CA%2091405!5e0!3m2!1sen!2sus!4v1653964856521!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   frameBorder="0"

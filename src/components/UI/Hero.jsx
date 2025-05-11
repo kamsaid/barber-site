@@ -9,7 +9,7 @@ function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{ 
-          backgroundImage: "url('/images/barber-shop-interior.jpg')",
+          backgroundImage: "url('/images/gallery/shop-1.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-primary-900/80 to-primary-900/40"></div>

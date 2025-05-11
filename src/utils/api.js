@@ -35,7 +35,7 @@ export const fetchBusinessInfo = async () => {
   // Mocked business data
   return {
     name: "Vlad the Barber",
-    formatted_address: "123 Main Street, Los Angeles, CA 90001",
+    formatted_address: "7217 Van Nuys Blvd, Van Nuys, CA 91405",
     formatted_phone_number: "(310) 123-4567",
     website: "https://vladthebarber.com",
     rating: 4.8,

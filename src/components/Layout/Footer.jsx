@@ -25,11 +25,11 @@ function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Vlad the Barber</h3>
             <address className="not-italic">
-              <p className="mb-2">123 Main Street</p>
-              <p className="mb-2">Los Angeles, CA 90001</p>
+              <p className="mb-2">7217 Van Nuys Blvd</p>
+              <p className="mb-2">Van Nuys, CA 91405</p>
               <p className="mb-4">
-                <a href="tel:+13101234567" className="text-white hover:text-accent-500">
-                  (310) 123-4567
+                <a href="tel:+16316718388" className="text-white hover:text-accent-500">
+                  (631) 671-8388
                 </a>
               </p>
               <p>
@@ -117,11 +117,11 @@ function Footer() {
                 <FaYelp className="w-6 h-6" />
               </a>
               <a 
-                href="https://google.com/maps" 
+                href="https://www.google.com/maps/place/S.A.K.+Barber+Shop/data=!4m7!3m6!1s0x80c297228d0dbb0d:0x2711419051f7947a!8m2!3d34.2018756!4d-118.4490527!16s%2Fg%2F11gbfd44lj!19sChIJDbsNjSKXwoARepT3UZBBESc?authuser=0&hl=en&rclk=1" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-accent-500"
-                aria-label="Google"
+                aria-label="Google Maps"
               >
                 <FaGoogle className="w-6 h-6" />
               </a>

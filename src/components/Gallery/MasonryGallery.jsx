@@ -16,8 +16,9 @@ const categories = [
   { id: 'all', name: 'All' },
   { id: 'fade', name: 'Fades' },
   { id: 'beard', name: 'Beard' },
-  { id: 'classic', name: 'Classic' },
-  { id: 'kids', name: 'Kids' },
+  { id: 'style', name: 'Styles' },
+  { id: 'shop', name: 'Shop' },
+  { id: 'tools', name: 'Tools' },
 ]
 
 // Responsive breakpoint columns for masonry layout

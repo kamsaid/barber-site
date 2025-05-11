@@ -90,15 +90,6 @@ function ReviewsCarousel() {
               ))}
             </Swiper>
             
-            {/* Google reviews attribution */}
-            <div className="mt-6 text-center text-sm text-primary-500 flex items-center justify-center">
-              <img 
-                src="/images/google-logo.svg" 
-                alt="Google" 
-                className="h-6 mr-2"
-              />
-              Powered by Google Reviews
-            </div>
           </div>
         )}
       </div>

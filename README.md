@@ -1,6 +1,6 @@
-# Vlad the Barber - Website
+# S.A.K. Barber Shop - Website
 
-A modern, responsive website for "Vlad the Barber" - a premium barber shop in Los Angeles.
+A modern, responsive website for "S.A.K. Barber Shop" - a premium barber shop in Van Nuys, California.
 
 ## Features
 
@@ -30,7 +30,7 @@ A modern, responsive website for "Vlad the Barber" - a premium barber shop in Lo
 
 1. Clone the repository
    ```
-   git clone https://github.com/kamsaid/barber-site.git
+   git clone https://github.com/yourusername/barber-site.git
    cd barber-site
    ```
 
@@ -39,15 +39,28 @@ A modern, responsive website for "Vlad the Barber" - a premium barber shop in Lo
    npm install
    ```
 
-3. Start the development server
+3. Set up images
+   ```
+   # Option 1: If your images are already named correctly
+   ./setup-images.sh
+   
+   # Option 2: If your images need to be mapped from a source directory
+   ./copy-images.sh /path/to/your/images
+   ```
+
+4. Start the development server
    ```
    npm run dev
    ```
 
-4. Build for production
+5. Build for production
    ```
    npm run build
    ```
+
+## Image Setup Instructions
+
+See the [Image Mapping Guide](IMAGE-MAPPING-GUIDE.md) for detailed instructions on setting up the gallery images.
 
 ## License
 
@@ -55,4 +68,5 @@ MIT
 
 ## Contact
 
-Vlad - [Instagram](https://instagram.com/vladthebarber) 
+S.A.K. Barber Shop - (631) 671-8388  
+7217 Van Nuys Blvd., Van Nuys, CA 91405 

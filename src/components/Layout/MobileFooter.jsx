@@ -8,7 +8,7 @@ function MobileFooter() {
     <div className="footer-sticky py-3 px-4 grid grid-cols-3 gap-2">
       {/* Call Button */}
       <a 
-        href="tel:+13101234567" 
+        href="tel:+16316718388" 
         className="flex flex-col items-center justify-center text-primary-900 hover:text-accent-500"
         aria-label="Call Vlad the Barber"
       >
@@ -18,11 +18,11 @@ function MobileFooter() {
 
       {/* Directions Button */}
       <a 
-        href="https://www.google.com/maps/search/?api=1&query=Vlad+the+Barber+Los+Angeles" 
+        href="https://www.google.com/maps/place/S.A.K.+Barber+Shop/data=!4m7!3m6!1s0x80c297228d0dbb0d:0x2711419051f7947a!8m2!3d34.2018756!4d-118.4490527!16s%2Fg%2F11gbfd44lj!19sChIJDbsNjSKXwoARepT3UZBBESc?authuser=0&hl=en&rclk=1" 
         target="_blank" 
         rel="noopener noreferrer"
         className="flex flex-col items-center justify-center text-primary-900 hover:text-accent-500"
-        aria-label="Get directions to Vlad the Barber"
+        aria-label="Get directions to S.A.K. Barber Shop"
       >
         <FaMapMarkerAlt className="h-5 w-5 mb-1" />
         <span className="text-xs font-medium">Directions</span>
